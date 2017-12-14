@@ -24,3 +24,5 @@ Where **screen_name** is the name of the user you wish to receieve recommendatio
 After this has finished running, you can use **Twinet.py** script and pass in the newly created 'final.txt' file as the edge-list file. Also, select an alpha and beta value you would like to use for the pagerank algorithm:
 
 `python Twinet.py final.txt <alpha-value> <beta-value>`
+
+This will output the three top users recommended for you to the terminal.
