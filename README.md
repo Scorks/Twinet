@@ -11,4 +11,12 @@ Twinet includes both a "scraper.py" script that, once twurl has been verified on
 
 ## Installation
 
-Twinet uses Twurl [https://github.com/twitter/twurl].
+Twinet uses the curl-based API wrapper "Twurl" [https://github.com/twitter/twurl]. Installation instructions are available from the linked GitHub page. After installing and verifying your account, you can begin to run the Twinet scripts.
+
+## Usage
+
+To use Twinet (after Twurl has been authenticated), within the terminal, run:
+
+`python scraper.py <screen_name> <follower_limit>`
+
+
